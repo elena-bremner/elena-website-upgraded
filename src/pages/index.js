@@ -1,14 +1,14 @@
 import React from "react"
 import Work from "../components/work"
-import styles from "./index.module.css"
+import Styles from "./index.module.css"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
 export default ({data}) => (
   <Layout>
-  <div className={styles.wrapper}> 
+  <div className={Styles.wrapper}> 
   {data.allMarkdownRemark.edges.map(({ node }) =>
-      <div key={node.id} className={styles.subwrapper}>
+      <div key={node.id} className={Styles.subwrapper}>
         <Work
           name={node.frontmatter.title}
           picture= {node.frontmatter.square.childImageSharp.fluid}

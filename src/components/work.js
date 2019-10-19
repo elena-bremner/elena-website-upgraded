@@ -1,15 +1,15 @@
 import React from "react";
-import styles from "./work.module.css";
+import Styles from "./work.module.css";
 import Img from "gatsby-image"
 
 const Work = props =>
   <div>
      <a href={props.link}> 
       <div>
-        <div className={styles.container}>
-          <Img fluid={props.picture} className={styles.image}/>
-          <div className={styles.middle}>
-            <div className={styles.text}>
+        <div className={Styles.container}>
+          <Img fluid={props.picture} className={Styles.image}/>
+          <div className={Styles.middle}>
+            <div className={Styles.text}>
               {props.name}         
             </div>
           </div>

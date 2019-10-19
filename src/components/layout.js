@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 import resume from './resume.pdf'
-import './layout.css'
+import style from './layout.module.css'
 
 const linkStyle = {
   color: '#CACCCE',
@@ -13,8 +13,8 @@ const linkActiveStyle = {
 
 export default ({ children }) => {
     return (
-      <div id="container">
-        <div id="sidebar">
+      <div className={style.container}>
+        <div className={style.sidebar}>
         	<Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
             + Work
           </Link>
@@ -36,7 +36,7 @@ export default ({ children }) => {
           <a href={resume} style={linkStyle}> + Resume</a>
         </div>
 
-        <div id="main-content">
+        <div className={style.maincontent}>
           { children }
         </div>
       </div>

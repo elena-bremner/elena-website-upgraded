@@ -1,22 +1,18 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "elena-website",
+  "private": false,
+  "description": "Personal website to hold my portfolio",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@hot-loader/react-dom": "^16.8.6",
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-sharp": "^2.2.32",
+    "gatsby-plugin-styled-components": "^3.1.11",
     "gatsby-remark-copy-linked-files": "^2.1.28",
     "gatsby-remark-copy-relative-linked-files": "^1.0.2",
     "gatsby-remark-images": "^3.1.28",
@@ -27,13 +23,11 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/elena-bremner/elena-website-upgraded"
   }
 }

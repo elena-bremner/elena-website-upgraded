@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/elena-website-upgraded",
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
