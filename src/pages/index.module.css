@@ -1,0 +1,23 @@
+.wrapper {
+  height: 100%;
+  width:100%;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(3, 33.333%);
+  grid-template-rows: repeat(6, min-content);
+  grid-auto-flow: row;
+  line-height: 0px;
+ 
+}
+.subwrapper{
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	display:block;
+	float:left;
+	clear: both;
+	overflow:auto;
+}
+
+.purple {
+  color: purple;
+}
