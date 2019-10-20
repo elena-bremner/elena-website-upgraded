@@ -19,13 +19,13 @@ export default ({ children }) => {
             + Work
           </Link>
 
-       	   <br/>
+       	  <br/>
 
           <Link to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
           + About me
           </Link>
 
-           <br/>
+          <br/>
 
           <Link to="/contact/" style={linkStyle} activeStyle={linkActiveStyle}>
           + Contact

@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/Marie/Desktop/elena-website-2/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/Marie/Desktop/elena-website-2/node_modules/gatsby-remark-images/gatsby-ssr'),
       options: {"plugins":[],"maxWidth":1000,"quality":100},
     }]

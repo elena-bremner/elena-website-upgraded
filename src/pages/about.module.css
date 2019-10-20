@@ -1,0 +1,30 @@
+.hello {
+    position: relative;
+    width: 100%;
+    padding-left:10%; /* padding-left must be the same as sidebar width */
+    height: 0px; /* This could be anything, content should scroll vertical */
+    background: white;
+    box-sizing:border-box;
+    font-size: 90pt;
+    line-height: auto;
+}
+
+.hello:hover {
+	color:#FF7963;
+}
+
+.introduction {
+    width: 100%;
+    padding-left:1%; /* padding-left must be the same as sidebar width */
+    height: 1px; /* This could be anything, content should scroll vertical */
+    background: white;
+    box-sizing:border-box;
+    margin:0px;
+    font-size: 20pt; 
+    padding-top:30%;
+    line-height: auto;
+}
+
+.introduction:hover {
+	color:#FF7963;
+}

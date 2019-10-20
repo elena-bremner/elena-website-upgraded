@@ -1,0 +1,19 @@
+.contact { /*contact */
+    position: relative;
+    width: 100%;
+    padding-left:10%; /* padding-left must be the same as sidebar width */
+    height: 40%; /* This could be anything, content should scroll vertical */
+    background: white;
+    box-sizing:border-box;
+    font-size: 70pt;
+    line-height: auto;
+}
+
+.contactlink{
+    text-decoration: none;
+    font-color:pink;
+}
+
+.contactlink:hover{
+    color:#FF7963;
+}

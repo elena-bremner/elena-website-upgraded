@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
 .sidebar {
     padding-top:80px; /* padding-top must be the same as header height */
     padding-left:60px;
@@ -9,10 +10,13 @@
     z-index:99;
     font-size:12pt;
     font-color:red;  
+
 }
 
 .container {
-    padding: 25px,
+    font-family:  'Share Tech Mono', monospace;
+    padding: 25px;
+    margin: 0px;
 }
 
 .maincontent {
@@ -23,4 +27,13 @@
     background: white;
     box-sizing:border-box;
     padding-top: 0px;
+}
+
+.linkStyle {
+    color: '#CACCCE';
+    textDecoration: 'none';
+}
+
+.linkActiveStyle {
+    color: "#FF7963";
 }

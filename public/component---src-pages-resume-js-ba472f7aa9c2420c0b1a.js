@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{198:function(e,n,t){"use strict";t.r(n);var c=t(0),a=t.n(c);n.default=function(){return a.a.createElement("div",null,a.a.createElement("embed",{src:"/static/resume-d21512857779c2c3d6f862bac84ffbd7.pdf",width:"75%"}))}}}]);
+//# sourceMappingURL=component---src-pages-resume-js-ba472f7aa9c2420c0b1a.js.map
