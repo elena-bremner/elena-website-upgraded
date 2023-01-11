@@ -18,7 +18,7 @@
     "gatsby-remark-copy-relative-linked-files": "^1.0.2",
     "gatsby-remark-images": "^3.1.28",
     "gatsby-source-filesystem": "^2.1.28",
-    "gatsby-transformer-remark": "^2.6.26",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.23",
     "react": "^16.10.0",
     "react-helmet": "^5.2.1",
